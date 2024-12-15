@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter Section</title>
+    <link rel="stylesheet" href="filter.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="filter-section">
+            <h2>Filters</h2>
+            <div class="filter-group">
+                <h3>Category</h3>
+                <label>
+                    <input type="checkbox" name="category" value="electronics">
+                    Electronics
+                </label>
+                <label>
+                    <input type="checkbox" name="category" value="clothing">
+                    Clothing
+                </label>
+                <label>
+                    <input type="checkbox" name="category" value="home-appliances">
+                    Home Appliances
+                </label>
+            </div>
+            <div class="filter-group">
+                <h3>Price Range</h3>
+                <label>
+                    <input type="radio" name="price" value="low">
+                    Under $50
+                </label>
+                <label>
+                    <input type="radio" name="price" value="medium">
+                    $50 - $100
+                </label>
+                <label>
+                    <input type="radio" name="price" value="high">
+                    Over $100
+                </label>
+            </div>
+            <div class="filter-group">
+                <h3>Brand</h3>
+                <label>
+                    <input type="checkbox" name="brand" value="brand-a">
+                    Brand A
+                </label>
+                <label>
+                    <input type="checkbox" name="brand" value="brand-b">
+                    Brand B
+                </label>
+                <label>
+                    <input type="checkbox" name="brand" value="brand-c">
+                    Brand C
+                </label>
+            </div>
+            <button class="apply-filters">Apply Filters</button>
+        </aside>
+        <main class="product-list">
+            <!-- Product items will go here -->
+        </main>
+    </div>
+</body>
+</html>

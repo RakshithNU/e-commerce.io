@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    }
+    .card1{
+        height: auto;
+        }
+        .card1 img:hover{
+            content: url(h11.png);
+        }
+        .card1:hover{
+            border: 5px solid blue;
+        }
+        
+        
+        .card2{
+        height: auto;
+        }
+        .card2 img:hover{
+            content: url(h22.png);
+        }
+        .card2:hover{
+            border: 5px solid blue;
+        }
+        
+        
+        .card3{
+        height: auto;
+        }
+        .card3 img:hover{
+            content: url(h33.png);
+        }
+        .card3:hover{
+            border: 5px solid blue;
+        }
+        
+        
+        .car4{
+        height: auto;
+        }
+        .card4 img:hover{
+            content: url(l44.png);
+        }
+        .card4:hover{
+            border: 5px solid blue;
+        }
+        
+        
+        .card5{
+        height: auto;
+        }
+        .card5 img:hover{
+            content: url(h55.png);
+        }
+        .card5:hover{
+            border: 5px solid blue;
+        }
+        
+        
+        .card6{
+        height: auto;
+        }
+        .card6 img:hover{
+            content: url(h66.png);
+        }
+        .card6:hover{
+            border: 5px solid blue;
+        }
+        
+        .but button{
+            background: rgb(107,73,157);
+        background: linear-gradient(90deg, rgba(107,73,157,1) 0%, rgba(253,100,29,0.9921218487394958) 25%, rgba(252,176,69,1) 66%);
+        }
+        
